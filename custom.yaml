@@ -1,0 +1,6 @@
+train: /home/bapary/Videos/koala/data/train/imgs
+test: /home/bapary/Videos/koala/data/test/imgs
+val: /home/bapary/Videos/koala/data/val/imgs
+
+nc: 1
+names: ['koala']

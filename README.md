@@ -1,7 +1,6 @@
 # Koala_detection
 A Brief Description of Data Analysis, Model Creation and Performance is given below,
 
-
 ## Data collection and preprocessing
 Here is the explanation for my data collection and preprocessing steps,
 
@@ -48,8 +47,6 @@ Finally, the dataset is ready for training.
 After preparing data I have followed this link (https://github.com/ultralytics/ultralytics) to install YOLOv8 model and followed the code given in the link for training, validation and testing.
 
 Before training I have modified the coco.yaml file and create a custom.yaml file which contains the directory of my train, test and validation data path. I also mentioned the number of class with class name in the custom.yaml file.
-
-
 
 
 

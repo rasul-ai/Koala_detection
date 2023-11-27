@@ -157,18 +157,18 @@ I have trained the yolov8 model for 2 times with 2 different dataset. I am givin
 ### Training Metrics Analysis:
     • The model shows varying losses during training, with fluctuations in box, class, and DFL losses.
     • Precision and recall have a wide range, indicating potential challenges in model performance.
-Validation Metrics Analysis:
+### Validation Metrics Analysis:
     • Validation losses demonstrate a higher range compared to training, suggesting some overfitting or difficulties in generalization.
-###Overall Assessment:
+### Overall Assessment:
     • The model trained on Dataset 1 has mixed performance metrics, with notable variations in losses and evaluation metrics. Fine-tuning or adjusting hyperparameters may be beneficial to enhance model performance.
     
 ## Dataset 2
-Training Metrics Analysis:
+### Training Metrics Analysis:
     • Dataset 2 shows relatively stable and lower losses during training compared to Dataset 1.
     • Precision and recall metrics are consistent, indicating more stable performance.
-Validation Metrics Analysis:
+### Validation Metrics Analysis:
     • Validation losses are within an acceptable range, suggesting good generalization to the validation set.
-Overall Assessment:
+### Overall Assessment:
     • The model trained on Dataset 2 demonstrates more stable performance metrics across training and validation. It appears to be better suited for generalization to unseen data.
 
 

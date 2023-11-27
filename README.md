@@ -1,5 +1,6 @@
 # Koala_detection
-A Brief Description of Data Analysis, Model Creation and Performance is given below,
+![Prediction_sample](https://github.com/rasul-ai/Koala_detection/blob/bf3881b6db2da757a90cc0886a2e31aae30e2a2f/Prediction_sample.png)
+## A Brief Description of Data Analysis, Model Creation and Performance is given below,
 
 ## Data collection and preprocessing
 Here is the explanation for my data collection and preprocessing steps,

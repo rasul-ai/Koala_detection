@@ -4,6 +4,7 @@ A Brief Description of Data Analysis, Model Creation and Performance is given be
 
 ## Data collection and preprocessing
 Here is the explanation for my data collection and preprocessing steps,
+![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](/home/bapary/Pictures/Screenshots/Screenshot from 2023-11-27 15-38-29.png)
 
     1. Data Source:
        I have downloaded the Koala dataset from the provided google drive link.
@@ -22,6 +23,7 @@ Here is the explanation for my data collection and preprocessing steps,
        
     6. Data Annotation: 
        I used Labelme tool to annotate these 144 realistic images. Labelme tool provides the bounding box position in .json format. All the bounding box represents only a single class ‘Koala’.
+       ![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](/home/bapary/Pictures/Screenshots/Screenshot from 2023-11-27 15-38-29.png)
        
     7. Conversion to YOLO format: 
        I have converted the annotated data from Labelme tool’s .json format to YOLO (You Only Look Once) format. YOLO format typically requires a .txt file for each corresponding image, where each line in the .txt file represents a bounding box in the YOLO format. The YOLO format for a bounding box in a .txt file is often represented as: “class x_center y_center width height”. The conversion code is given the github repository.

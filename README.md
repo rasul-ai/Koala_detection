@@ -101,8 +101,7 @@ I have trained the yolov8 model for 2 times with 2 different dataset. I am givin
 
  ### Inference Result:
     • Inference result on test set and cartoon set is given in the google drive link.
-    • [Runs-144_link](https://drive.google.com/drive/folders/1AXWdfcPCT0DvrnVB4ULg1n7UfM8-0VbP)
- 
+ [Runs-144_link](https://drive.google.com/drive/folders/1AXWdfcPCT0DvrnVB4ULg1n7UfM8-0VbP)
 ## Dataset 2
 ### Dataset Overview:
     • Total Images : 864
@@ -148,8 +147,7 @@ I have trained the yolov8 model for 2 times with 2 different dataset. I am givin
 
 ### Inference Result:
     • Inference result on test set and cartoon set is given in the google drive link.
-    • Runs-864_link (https://drive.google.com/drive/folders/1j6u1Qo57bCIVYqg5w_hX_JXZn8qB1eRU)
-
+[Runs-864_link](https://drive.google.com/drive/folders/1j6u1Qo57bCIVYqg5w_hX_JXZn8qB1eRU)    
 
 ## Evaluation Result:
 

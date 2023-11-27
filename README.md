@@ -1,5 +1,5 @@
 # Koala_detection
-A Brief Description of Data Analysis, Model Creation and Performance
+A Brief Description of Data Analysis, Model Creation and Performance is given below,
 
 
 ## Data collection and preprocessing
@@ -56,19 +56,14 @@ Before training I have modified the coco.yaml file and create a custom.yaml file
 ## Observation and Evaluation Report
 I have trained the yolov8 model for 2 times with 2 different dataset. I am giving a brief description here,
 
-Dataset 1
-Dataset 2
-Dataset Overview:
+## Dataset 1
+### Dataset Overview:
     • Total Images : 144
     • Training Set: 100 images
     • Validation Set: 22 images
     • Test Set: 22 images
-Dataset Overview:
-    • Total Images : 864
-    • Training Set: 604 images
-    • Validation Set: 129 images
-    • Test Set: 131 images
-Training Metrics:
+
+### Training Loss:
     • Box Loss
         ◦ Minimum: 0.35185
         ◦ Maximum: 1.4919
@@ -78,17 +73,8 @@ Training Metrics:
     • DFL Loss
         ◦ Minimum: 0.88047
         ◦ Maximum: 1.5654
-Training Metrics:
-    • Box Loss
-        ◦ Minimum: 0.42743
-        ◦ Maximum: 1.4359
-    • Class Loss
-        ◦ Minimum: 0.28883
-        ◦ Maximum: 2.1334
-    • DFL Loss
-        ◦ Minimum: 0.92388
-        ◦ Maximum: 1.5145
-Validation Metrics:
+
+### Validation Loss:
     • Box Loss
         ◦ Minimum: 1.0347
         ◦ Maximum: 2.7972
@@ -98,7 +84,26 @@ Validation Metrics:
     • DFL Loss
         ◦ Minimum: 1.1254
         ◦ Maximum: 2.9755
-Validation Metrics:
+ 
+## Dataset 2
+### Dataset Overview:
+    • Total Images : 864
+    • Training Set: 604 images
+    • Validation Set: 129 images
+    • Test Set: 131 images
+
+### Training Loss:
+    • Box Loss
+        ◦ Minimum: 0.42743
+        ◦ Maximum: 1.4359
+    • Class Loss
+        ◦ Minimum: 0.28883
+        ◦ Maximum: 2.1334
+    • DFL Loss
+        ◦ Minimum: 0.92388
+        ◦ Maximum: 1.5145
+
+### Validation Loss:
     • Box Loss
         ◦ Minimum: 0.7005
         ◦ Maximum: 2.1855
@@ -108,7 +113,7 @@ Validation Metrics:
     • DFL Loss
         ◦ Minimum: 0.86665
         ◦ Maximum: 2.1874
-Training Metrics(B):
+### Training Metrics(B):
     • Precision
         ◦ Minimum: 0.00952
         ◦ Maximum: 1.0
@@ -121,7 +126,7 @@ Training Metrics(B):
     • mAP50-95
         ◦ Minimum: 0.06356
         ◦ Maximum: 0.59151
-Training Metrics(B):
+### Training Metrics(B):
     • Precision
         ◦ Minimum: 0.45624
         ◦ Maximum: 1.0
@@ -134,12 +139,12 @@ Training Metrics(B):
     • mAP50-95
         ◦ Minimum: 0.14123
         ◦ Maximum: 0.8173
-Inference Result:
+### Inference Result:
     • Inference result on test set and cartoon set is given in the google drive link.
-    • Runs-144_link
-Inference Result:
+    • Runs-144_link (https://drive.google.com/drive/folders/1AXWdfcPCT0DvrnVB4ULg1n7UfM8-0VbP)
+### Inference Result:
     • Inference result on test set and cartoon set is given in the google drive link.
-    • Runs-864_link
+    • Runs-864_link (https://drive.google.com/drive/folders/1j6u1Qo57bCIVYqg5w_hX_JXZn8qB1eRU)
 
 
 ## Evaluation Result:

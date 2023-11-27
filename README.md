@@ -84,6 +84,24 @@ I have trained the yolov8 model for 2 times with 2 different dataset. I am givin
     • DFL Loss
         ◦ Minimum: 1.1254
         ◦ Maximum: 2.9755
+
+ ### Training Metrics(B):
+    • Precision
+        ◦ Minimum: 0.00952
+        ◦ Maximum: 1.0
+    • Recall
+        ◦ Minimum: 0.25926
+        ◦ Maximum: 1.0
+    • mAP50
+        ◦ Minimum: 0.17646
+        ◦ Maximum: 0.94776
+    • mAP50-95
+        ◦ Minimum: 0.06356
+        ◦ Maximum: 0.59151
+
+ ### Inference Result:
+    • Inference result on test set and cartoon set is given in the google drive link.
+    • Runs-144_link (https://drive.google.com/drive/folders/1AXWdfcPCT0DvrnVB4ULg1n7UfM8-0VbP)
  
 ## Dataset 2
 ### Dataset Overview:
@@ -113,19 +131,7 @@ I have trained the yolov8 model for 2 times with 2 different dataset. I am givin
     • DFL Loss
         ◦ Minimum: 0.86665
         ◦ Maximum: 2.1874
-### Training Metrics(B):
-    • Precision
-        ◦ Minimum: 0.00952
-        ◦ Maximum: 1.0
-    • Recall
-        ◦ Minimum: 0.25926
-        ◦ Maximum: 1.0
-    • mAP50
-        ◦ Minimum: 0.17646
-        ◦ Maximum: 0.94776
-    • mAP50-95
-        ◦ Minimum: 0.06356
-        ◦ Maximum: 0.59151
+
 ### Training Metrics(B):
     • Precision
         ◦ Minimum: 0.45624
@@ -139,9 +145,7 @@ I have trained the yolov8 model for 2 times with 2 different dataset. I am givin
     • mAP50-95
         ◦ Minimum: 0.14123
         ◦ Maximum: 0.8173
-### Inference Result:
-    • Inference result on test set and cartoon set is given in the google drive link.
-    • Runs-144_link (https://drive.google.com/drive/folders/1AXWdfcPCT0DvrnVB4ULg1n7UfM8-0VbP)
+
 ### Inference Result:
     • Inference result on test set and cartoon set is given in the google drive link.
     • Runs-864_link (https://drive.google.com/drive/folders/1j6u1Qo57bCIVYqg5w_hX_JXZn8qB1eRU)
@@ -149,20 +153,21 @@ I have trained the yolov8 model for 2 times with 2 different dataset. I am givin
 
 ## Evaluation Result:
 
-Dataset 1
-Dataset 2
-Training Metrics Analysis:
+## Dataset 1
+### Training Metrics Analysis:
     • The model shows varying losses during training, with fluctuations in box, class, and DFL losses.
     • Precision and recall have a wide range, indicating potential challenges in model performance.
+Validation Metrics Analysis:
+    • Validation losses demonstrate a higher range compared to training, suggesting some overfitting or difficulties in generalization.
+###Overall Assessment:
+    • The model trained on Dataset 1 has mixed performance metrics, with notable variations in losses and evaluation metrics. Fine-tuning or adjusting hyperparameters may be beneficial to enhance model performance.
+    
+## Dataset 2
 Training Metrics Analysis:
     • Dataset 2 shows relatively stable and lower losses during training compared to Dataset 1.
     • Precision and recall metrics are consistent, indicating more stable performance.
 Validation Metrics Analysis:
-    • Validation losses demonstrate a higher range compared to training, suggesting some overfitting or difficulties in generalization.
-Validation Metrics Analysis:
     • Validation losses are within an acceptable range, suggesting good generalization to the validation set.
-Overall Assessment:
-    • The model trained on Dataset 1 has mixed performance metrics, with notable variations in losses and evaluation metrics. Fine-tuning or adjusting hyperparameters may be beneficial to enhance model performance.
 Overall Assessment:
     • The model trained on Dataset 2 demonstrates more stable performance metrics across training and validation. It appears to be better suited for generalization to unseen data.
 

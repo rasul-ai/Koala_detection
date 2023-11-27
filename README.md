@@ -38,7 +38,7 @@ Here is the explanation for my data collection and preprocessing steps,
        
     10. Data Splitting:
        I have split the dataset with a ration of 70% for training, 15% for validation and 15% for testing. Before splitting, I shuffled the dataset to ensure a random distribution of data points across the sets. The code is given in the github repository.
-[Screenshot of Data Annotation (Labelme)](https://drive.google.com/file/d/1Qh4rGiHK2P1oGr90mL64-w8Z75uGm_0v/view?usp=sharing)       
+![Screenshot of Data Annotation (Labelme)](https://github.com/rasul-ai/Koala_detection/blob/31c06a119715006f2a8f45067be0781b007ff94e/Labelme_Annotation_Sample.png)       
 Finally, the dataset is ready for training.
 
 

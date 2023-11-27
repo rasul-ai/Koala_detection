@@ -2,7 +2,7 @@
 A Brief Description of Data Analysis, Model Creation and Performance
 
 
-Data collection and preprocessing
+#Data collection and preprocessing
 Here is the explanation for my data collection and preprocessing steps,
 
     1. Data Source:
@@ -44,9 +44,7 @@ Finally, the dataset is ready for training.
 
 
 
-
-
-Training/Validation and Testing:
+#Training/Validation and Testing:
 After preparing data I have followed this link (https://github.com/ultralytics/ultralytics) to install YOLOv8 model and followed the code given in the link for training, validation and testing.
 
 Before training I have modified the coco.yaml file and create a custom.yaml file which contains the directory of my train, test and validation data path. I also mentioned the number of class with class name in the custom.yaml file.
@@ -55,7 +53,7 @@ Before training I have modified the coco.yaml file and create a custom.yaml file
 
 
 
-Observation and Evaluation Report
+#Observation and Evaluation Report
 I have trained the yolov8 model for 2 times with 2 different dataset. I am giving a brief description here,
 
 Dataset 1
@@ -142,9 +140,6 @@ Inference Result:
 Inference Result:
     • Inference result on test set and cartoon set is given in the google drive link.
     • Runs-864_link
-
-
-
 
 
 

@@ -4,7 +4,7 @@ A Brief Description of Data Analysis, Model Creation and Performance is given be
 
 ## Data collection and preprocessing
 Here is the explanation for my data collection and preprocessing steps,
-![Screenshot](https://drive.google.com/file/d/1Qh4rGiHK2P1oGr90mL64-w8Z75uGm_0v/view?usp=drive_link)
+![Screenshot](https://drive.google.com/file/d/1Qh4rGiHK2P1oGr90mL64-w8Z75uGm_0v/view?usp=sharing)
 
     1. Data Source:
        I have downloaded the Koala dataset from the provided google drive link.

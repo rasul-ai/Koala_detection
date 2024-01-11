@@ -1,8 +1,8 @@
 # Koala_detection
 ![Prediction_sample](https://github.com/rasul-ai/Koala_detection/blob/bf3881b6db2da757a90cc0886a2e31aae30e2a2f/Prediction_sample.png)
 ## This repository is created for an Interview Task given from NamespaceIT.
-**Author : ** [Md Rasul Islam Bapary]
-**Date : ** [24.11.2023]
+**Author:** [Md Rasul Islam Bapary]  
+**Date:** [24.11.2023]
 ## A Brief Description of Data Analysis, Model Creation and Performance is given below,
 
 ## Data collection and preprocessing
